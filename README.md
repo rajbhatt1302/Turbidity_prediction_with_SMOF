@@ -11,7 +11,8 @@ The uniqueness of our approach emerges when the best-performing model from the f
 Moreover, in this unique approach, the top ranked features of the feature selection procedure are fed as input to the base models of this this framework.  
 
 
-1.LR_234_bands is the image file (PRISMA) which can be used as input to the PRISMA_band_selection_spatial_coherence_Renyi's_entropy.ipynb
+1.LR_234_bands is the image file (PRISMA) which can be used as input to the PRISMA_band_selection_spatial_coherence_Renyi's_entropy.ipynb is available at 
+https://drive.google.com/file/d/1-X8wUQS1LB5hx-6RCOQ_Fqwa3sYpvcBl/view?usp=sharing
 
 2.Data_subset1.csv contains all the 191 bands after the statistical procedure of noisy bands removal.
 
