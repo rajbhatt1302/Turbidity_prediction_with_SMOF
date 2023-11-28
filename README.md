@@ -8,7 +8,7 @@ learning process of machine learning algorithms. This study can be considered as
 We've also developed a novel framework for turbidity prediction namely Stacked Ensemble with Machine Learning Regressors on Optimal Features (SMOF). 
 It employs a stacking ensemble of the nine above mentioned regressors with Random Forest as both base and meta model, leveraging feature selection outputs. 
 The uniqueness of our approach emerges when the best-performing model from the feature selection procedure assumes a dual role – as a base model and a meta model. 
-Moreover, in this unique approach, the top ranked features of the feature selection procedure are fed as input to the base models of this this framework.  
+Moreover, in this unique approach, the top ranked features of the feature selection procedure are fed as input to the base models of this this framework. 
 
 
 1.LR_234_bands is the image file (PRISMA) which can be used as input to the PRISMA_band_selection_spatial_coherence_Renyi's_entropy.ipynb is available at 
