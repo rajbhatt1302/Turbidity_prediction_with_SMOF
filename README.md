@@ -33,7 +33,6 @@ PRISMA Image (234 bands)   Data_subset1.csv (191 bands)    top5_bands.csv
 - Computes **intra-band spatial coherence (IBSC)** via pairwise inter-quadrat covariance
 - Finds a **single optimal threshold** using Rényi's entropy (α = 0.5)
 - Bands with IBSC ≤ threshold are flagged as noisy
-- Validates detections against 43 known noisy bands (Precision, Recall, F1)
 
 ## Stage B — Feature Selection
 
