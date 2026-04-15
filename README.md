@@ -38,7 +38,7 @@ PRISMA Image (234 bands)   Data_subset1.csv (191 bands)    top5_bands.csv
 
 - Trains **9 ML regressors**: CatBoost, Decision Tree, Extra Trees, Gradient Boosting, LightGBM, RFE, Random Forest, SVR (RBF), XGBoost
 - Tunes each with `RandomizedSearchCV` (10-fold CV)
-- Evaluates on a **held-out 30% test set** (no data leakage)
+- Evaluates on a **held-out 30% test set**
 - Ranks models using **−Norm(MAPE) + Norm(R²)**
 - Extracts **top 5 bands** from the best-ranked model
 - Exports all tuned models as `.joblib` files for Stage C
