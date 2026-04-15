@@ -64,7 +64,7 @@ PRISMA Image (234 bands)   Data_subset1.csv (191 bands)    top5_bands.csv
 Run notebooks in order:
 
 ```
-1. Stage A → PRISMA_band_selection_spatial_coherence_Renyi's_entropyipynb.ipynb
+1. Stage A → PRISMA_band_selection.ipynb
 2. Stage B → feature_importance_prisma.ipynb
 3. Stage C → SMOF.ipynb
 ```
