@@ -2,7 +2,7 @@
 
 ## Pipeline
 
-The repository implements a three-stage pipeline. Each stage feeds its outputs into the next — no results are hardcoded.
+The repository implements a three-stage pipeline. Each stage feeds its outputs into the next.
 
 ```
 Stage A                    Stage B                         Stage C
