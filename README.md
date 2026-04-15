@@ -48,7 +48,7 @@ PRISMA Image (234 bands)   Data_subset1.csv (191 bands)    top5_bands.csv
 - Loads tuned models and top bands from Stage B (zero hardcoding)
 - Builds `StackingRegressor` with **all 9 tuned base models** and the **best model as meta-learner**
 - Uses **10-fold CV** for meta-feature generation
-- Outputs a comparison table: standalone (all bands) → standalone (top bands) → SMOF (top bands)
+- Exports the SMOOF model as '.joblib' file for further use. 
 
 ---
 
