@@ -56,8 +56,8 @@ PRISMA Image (234 bands)   Data_subset1.csv (191 bands)    top5_bands.csv
 
 | File               | Description                                 |
 | ------------------ | ------------------------------------------- |
-| `Data_subset1.csv` | 191 clean spectral bands + turbidity target |
-| `LR_234_bands`     | PRISMA L1 hyperspectral image               |
+| CSV                | 191 clean spectral bands + turbidity target |
+| TIFF               | PRISMA L1 hyperspectral image               |
 
 ## Usage
 
